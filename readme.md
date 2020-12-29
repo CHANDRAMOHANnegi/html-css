@@ -1,4 +1,23 @@
-## Question 1. What's the difference between `undefined` and `not defined` in JavaScript
+## Question 1.Explain what elements will match each of the following CSS selectors:
+
+`div , p`
+`div p`
+`div > p`
+`div + p`
+`div ~ p`
+
+<details><summary><b>Answer</b></summary>
+
+1. div, p - Selects all <div> elements and all <p> elements
+2. div p - Selects all <p> elements that are anywhere inside a <div> element
+3. div > p - Selects all <p> elements where the immediate parent is a <div> element
+4. div + p - Selects all <p> elements that are placed immediately after a <div> element
+5. div ~ p - Selects all <p> elements that are anywhere preceded by a <div> element
+
+</details>
+
+
+<!-- ## Question 1. What's the difference between `undefined` and `not defined` in JavaScript
 
 <details><summary><b>Answer</b></summary>
 
@@ -31,4 +50,4 @@ console.log(y);  // Output: ReferenceError: y is not defined
 ### Ref Link:
 [http://stackoverflow.com/questions/20822022/javascript-variable-definition-declaration](http://stackoverflow.com/questions/20822022/javascript-variable-definition-declaration)
 
-</details>
+</details> -->
